@@ -1,0 +1,8 @@
+2020-06-03-04-06-10
+2020-07-04-06-09-10
+
+@client.event
+async def on_member_join(member):
+    fmt = '```diff\n-Hello {0.mention},I am Hello World bot in the {1.name}\n-If you want to know me, send me !hello\n-If you want to know how to use me, send me !help```'
+    channel = member.server.get_channel("channel_id_here")
+    await client.send_message("Hello World")

@@ -1,0 +1,7 @@
+Nlist = list(map(int,input().split(',')))
+Nfinish = list()
+Nfinish.append(Nlist[1]*Nlist[2]*Nlist[3])
+Nfinish.append(Nlist[0]*Nlist[2]*Nlist[3])
+Nfinish.append(Nlist[0]*Nlist[1]*Nlist[3])
+Nfinish.append(Nlist[0]*Nlist[1]*Nlist[2])
+print(Nfinish)
